@@ -1,0 +1,138 @@
+.ads-grid-container {
+  width: 100%;
+}
+
+.ads-grid-header {
+  margin-bottom: 24px;
+}
+
+.ads-grid-header h2 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #475569;
+  margin: 0;
+}
+
+.ads-grid-header h2 span {
+  color: #1e293b;
+}
+
+.brand-discovered-badge {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 2px 8px;
+  font-size: 11px;
+  font-weight: 600;
+  color: #059669;
+  background-color: #d1fae5;
+  border-radius: 12px;
+  vertical-align: middle;
+}
+
+.ads-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 24px;
+}
+
+/* Status States */
+.ads-grid-status {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+  padding: 48px;
+}
+
+.loading-container,
+.error-container,
+.empty-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 12px;
+}
+
+/* Loading */
+.loading-container p {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1e293b;
+  margin: 0;
+}
+
+.loading-note {
+  font-size: 14px;
+  color: #64748b;
+}
+
+.loading-spinner-large {
+  width: 48px;
+  height: 48px;
+  border: 3px solid #e2e8f0;
+  border-top-color: #3b82f6;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Error */
+.error-container {
+  max-width: 400px;
+}
+
+.error-icon {
+  width: 48px;
+  height: 48px;
+  color: #ef4444;
+}
+
+.error-container h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1e293b;
+  margin: 0;
+}
+
+.error-container p {
+  font-size: 14px;
+  color: #64748b;
+  margin: 0;
+}
+
+/* Empty */
+.empty-container {
+  max-width: 400px;
+}
+
+.empty-icon {
+  width: 48px;
+  height: 48px;
+  color: #94a3b8;
+}
+
+.empty-container h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1e293b;
+  margin: 0;
+}
+
+.empty-container p {
+  font-size: 14px;
+  color: #64748b;
+  margin: 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .ads-grid {
+    grid-template-columns: 1fr;
+  }
+}

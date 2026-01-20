@@ -1,0 +1,2888 @@
+# ============================================
+# BRANDS LIST FOR META AD LIBRARY LOOKUP
+# ============================================
+# Add brand names here, one per line
+# Lines starting with # are ignored
+# The script will look up each brand and add the page ID to brands.json
+
+# ============================================
+# TECH GIANTS
+# ============================================
+Apple
+Google
+Microsoft
+Amazon
+Meta
+Netflix
+Spotify
+Adobe
+Salesforce
+Oracle
+IBM
+Cisco
+SAP
+VMware
+Dell
+HP
+Lenovo
+Asus
+Acer
+Samsung
+LG
+Sony
+Panasonic
+Philips
+Toshiba
+Sharp
+Huawei
+Xiaomi
+Oppo
+Vivo
+OnePlus
+Realme
+Nothing
+Motorola
+Nokia
+HTC
+BlackBerry
+
+# ============================================
+# AI & CLOUD COMPANIES
+# ============================================
+Tesla
+SpaceX
+OpenAI
+Anthropic
+Nvidia
+AMD
+Intel
+Qualcomm
+Broadcom
+Texas Instruments
+ARM
+TSMC
+Palantir
+Databricks
+Snowflake
+Datadog
+MongoDB
+Elastic
+Cloudflare
+DigitalOcean
+Linode
+Vultr
+Heroku
+Vercel
+Netlify
+GitHub
+GitLab
+Atlassian
+Slack
+Zoom
+Microsoft Teams
+Webex
+Dropbox
+Box
+Google Drive
+OneDrive
+iCloud
+AWS
+Azure
+Google Cloud
+
+# ============================================
+# SOCIAL MEDIA & ENTERTAINMENT
+# ============================================
+Facebook
+Instagram
+WhatsApp
+Twitter
+X
+TikTok
+Snapchat
+Pinterest
+LinkedIn
+Reddit
+Tumblr
+YouTube
+Twitch
+Discord
+Telegram
+Signal
+WeChat
+Line
+KakaoTalk
+Viber
+
+# ============================================
+# STREAMING & MEDIA
+# ============================================
+Netflix
+Disney+
+Hulu
+HBO Max
+Amazon Prime Video
+Apple TV+
+Peacock
+Paramount+
+Discovery+
+ESPN
+CNN
+BBC
+Fox News
+MSNBC
+NBC
+ABC
+CBS
+Sky
+Canal+
+Deezer
+Tidal
+Pandora
+SoundCloud
+Audible
+Kindle
+
+# ============================================
+# GAMING
+# ============================================
+Roblox
+Unity
+Unreal Engine
+Steam
+Valve
+Epic Games
+Riot Games
+Blizzard
+Activision
+Ubisoft
+EA Sports
+Electronic Arts
+2K Games
+Take-Two
+Rockstar Games
+Bethesda
+CD Projekt
+Square Enix
+Capcom
+Bandai Namco
+Sega
+Konami
+Nintendo
+PlayStation
+Xbox
+Atari
+Zynga
+Supercell
+King
+Niantic
+Mojang
+Bungie
+343 Industries
+Naughty Dog
+Insomniac Games
+Santa Monica Studio
+
+# ============================================
+# E-COMMERCE & RETAIL
+# ============================================
+Amazon
+eBay
+Etsy
+Shopify
+Alibaba
+AliExpress
+Wish
+Shein
+Temu
+Walmart
+Target
+Costco
+Best Buy
+Home Depot
+Lowe's
+IKEA
+Wayfair
+Overstock
+Newegg
+B&H Photo
+Micro Center
+GameStop
+Chewy
+Petco
+PetSmart
+Sephora
+Ulta
+Nordstrom
+Macy's
+Bloomingdale's
+Neiman Marcus
+Saks Fifth Avenue
+JCPenney
+Kohl's
+TJ Maxx
+Marshalls
+Ross
+Burlington
+Dollar General
+Dollar Tree
+Five Below
+Big Lots
+Aldi
+Lidl
+Trader Joe's
+Whole Foods
+Kroger
+Safeway
+Publix
+Wegmans
+H-E-B
+
+# ============================================
+# FASHION & APPAREL
+# ============================================
+Nike
+Adidas
+Puma
+Reebok
+New Balance
+Under Armour
+Lululemon
+Athleta
+Gymshark
+Fabletics
+Outdoor Voices
+Allbirds
+Vans
+Converse
+Skechers
+Crocs
+Birkenstock
+Dr. Martens
+Timberland
+UGG
+Steve Madden
+Cole Haan
+Clarks
+ECCO
+Merrell
+Salomon
+The North Face
+Patagonia
+Columbia
+Arc'teryx
+Canada Goose
+Moncler
+Stone Island
+CP Company
+Barbour
+Carhartt
+Dickies
+Wrangler
+Levi's
+Wrangler
+Lee
+True Religion
+7 For All Mankind
+AG Jeans
+Citizens of Humanity
+Frame
+Rag & Bone
+Acne Studios
+A.P.C.
+COS
+& Other Stories
+Arket
+Massimo Dutti
+Mango
+Zara
+H&M
+Uniqlo
+Gap
+Old Navy
+Banana Republic
+J.Crew
+Abercrombie & Fitch
+Hollister
+American Eagle
+Aerie
+PacSun
+Zumiez
+Hot Topic
+Urban Outfitters
+Anthropologie
+Free People
+Forever 21
+Fashion Nova
+Pretty Little Thing
+Boohoo
+ASOS
+Missguided
+Nasty Gal
+Revolve
+Net-a-Porter
+Farfetch
+SSENSE
+MatchesFashion
+Mr Porter
+END Clothing
+Selfridges
+Harrods
+
+# ============================================
+# LUXURY BRANDS
+# ============================================
+Gucci
+Louis Vuitton
+Chanel
+Prada
+Dior
+Hermes
+Versace
+Balenciaga
+Burberry
+Fendi
+Givenchy
+Valentino
+Saint Laurent
+Bottega Veneta
+Celine
+Loewe
+Alexander McQueen
+Stella McCartney
+Tom Ford
+Marc Jacobs
+Coach
+Kate Spade
+Michael Kors
+Tory Burch
+Salvatore Ferragamo
+Tod's
+Ermenegildo Zegna
+Hugo Boss
+Armani
+Dolce & Gabbana
+Moschino
+Roberto Cavalli
+Missoni
+Etro
+Kenzo
+Lanvin
+Balmain
+Isabel Marant
+Jacquemus
+The Row
+Toteme
+Nanushka
+Ganni
+Staud
+Cult Gaia
+By Far
+Wandler
+Mansur Gavriel
+
+# ============================================
+# STREETWEAR & HYPE BRANDS
+# ============================================
+Off-White
+Supreme
+Palace
+Bape
+A Bathing Ape
+Kith
+Fear of God
+Essentials
+Yeezy
+Jordan
+Air Jordan
+Travis Scott
+Cactus Jack
+Stussy
+Obey
+HUF
+Diamond Supply Co
+Thrasher
+Anti Social Social Club
+Vetements
+AMBUSH
+Sacai
+Comme des Garcons
+Neighborhood
+WTAPS
+Undercover
+Visvim
+Human Made
+Girls Don't Cry
+Denim Tears
+Corteiz
+Trapstar
+Represent
+Amiri
+Rhude
+Palm Angels
+Heron Preston
+Marcelo Burlon
+GCDS
+Pleasures
+
+# ============================================
+# WATCHES & JEWELRY
+# ============================================
+Rolex
+Omega
+Tag Heuer
+Cartier
+Patek Philippe
+Audemars Piguet
+Breitling
+IWC
+Jaeger-LeCoultre
+Vacheron Constantin
+A. Lange & Sohne
+Panerai
+Hublot
+Richard Mille
+Zenith
+Tudor
+Grand Seiko
+Seiko
+Citizen
+Casio
+G-Shock
+Timex
+Swatch
+Tissot
+Longines
+Hamilton
+Movado
+Bulova
+Fossil
+Michael Kors Watches
+Daniel Wellington
+MVMT
+Vincero
+Shinola
+Tiffany & Co
+Van Cleef & Arpels
+Bvlgari
+Chopard
+Harry Winston
+Graff
+De Beers
+Swarovski
+Pandora
+David Yurman
+John Hardy
+Monica Vinader
+Missoma
+Mejuri
+Ana Luisa
+Gorjana
+BaubleBar
+Kendra Scott
+
+# ============================================
+# BEAUTY & COSMETICS
+# ============================================
+L'Oreal
+Maybelline
+NYX
+Lancome
+Estee Lauder
+Clinique
+MAC
+Bobbi Brown
+Too Faced
+Urban Decay
+NARS
+Fenty Beauty
+Rare Beauty
+Kylie Cosmetics
+KKW Beauty
+Charlotte Tilbury
+Pat McGrath Labs
+Hourglass
+Laura Mercier
+Bare Minerals
+IT Cosmetics
+Tarte
+Benefit
+Smashbox
+Morphe
+ColourPop
+e.l.f.
+Milani
+Wet n Wild
+CoverGirl
+Revlon
+Neutrogena
+CeraVe
+La Roche-Posay
+Vichy
+Bioderma
+Avene
+Eucerin
+Cetaphil
+Olay
+Pond's
+Nivea
+Dove
+Aveeno
+Lubriderm
+Jergens
+St. Ives
+Burt's Bees
+The Body Shop
+Lush
+Kiehl's
+Origins
+Fresh
+Tatcha
+Drunk Elephant
+Sunday Riley
+The Ordinary
+Paula's Choice
+Glow Recipe
+Summer Fridays
+Youth to the People
+Herbivore
+Farmacy
+Ole Henriksen
+Peter Thomas Roth
+Dr. Dennis Gross
+Murad
+SkinCeuticals
+Obagi
+iS Clinical
+Dermalogica
+
+# ============================================
+# HAIRCARE
+# ============================================
+Olaplex
+Kerastase
+Redken
+Pureology
+Aveda
+Bumble and Bumble
+Living Proof
+Moroccanoil
+Ouai
+Briogeo
+Function of Beauty
+Prose
+Vegamour
+Nutrafol
+Hims
+Keeps
+Rogaine
+Head & Shoulders
+Pantene
+Herbal Essences
+TRESemme
+Garnier
+L'Oreal Paris
+John Frieda
+OGX
+SheaMoisture
+Cantu
+Aussie
+Suave
+VO5
+CHI
+Paul Mitchell
+Sebastian
+Matrix
+Joico
+Kenra
+IGK
+R+Co
+Amika
+Drybar
+T3
+ghd
+Dyson Hair
+BaByliss
+Conair
+Revlon Hair
+Hot Tools
+
+# ============================================
+# FRAGRANCES
+# ============================================
+Chanel Fragrance
+Dior Fragrance
+Tom Ford Fragrance
+Creed
+Le Labo
+Byredo
+Diptyque
+Jo Malone
+Maison Margiela Replica
+Acqua di Parma
+Penhaligon's
+Atelier Cologne
+Frederic Malle
+Kilian
+Parfums de Marly
+Initio
+Xerjoff
+Amouage
+Nishane
+Tiziana Terenzi
+MFK
+Maison Francis Kurkdjian
+Bond No. 9
+Escentric Molecules
+Juliette Has a Gun
+Clean Reserve
+Phlur
+Snif
+Dedcool
+Boy Smells
+D.S. & Durga
+19-69
+Commodity
+Ellis Brooklyn
+Skylar
+Prada Fragrance
+Versace Fragrance
+Dolce & Gabbana Fragrance
+Armani Fragrance
+Burberry Fragrance
+Gucci Fragrance
+YSL Fragrance
+Valentino Fragrance
+Givenchy Fragrance
+Calvin Klein Fragrance
+Ralph Lauren Fragrance
+Hugo Boss Fragrance
+Mont Blanc
+Coach Fragrance
+Michael Kors Fragrance
+Marc Jacobs Fragrance
+
+# ============================================
+# AUTOMOBILES
+# ============================================
+Toyota
+Honda
+Ford
+Chevrolet
+BMW
+Mercedes-Benz
+Audi
+Volkswagen
+Porsche
+Ferrari
+Lamborghini
+Maserati
+Bentley
+Rolls-Royce
+Aston Martin
+McLaren
+Bugatti
+Koenigsegg
+Pagani
+Rimac
+Lucid Motors
+Rivian
+Polestar
+Genesis
+Lexus
+Infiniti
+Acura
+Lincoln
+Cadillac
+Buick
+GMC
+Jeep
+Ram
+Dodge
+Chrysler
+Fiat
+Alfa Romeo
+Land Rover
+Range Rover
+Jaguar
+Mini
+Volvo
+Subaru
+Mazda
+Nissan
+Hyundai
+Kia
+Mitsubishi
+Suzuki
+Isuzu
+Dacia
+Skoda
+Seat
+Cupra
+Peugeot
+Citroen
+Renault
+Opel
+Vauxhall
+MG
+BYD
+NIO
+XPeng
+Li Auto
+Great Wall
+Geely
+Chery
+
+# ============================================
+# MOTORCYCLES
+# ============================================
+Harley-Davidson
+Indian Motorcycle
+Ducati
+Triumph
+BMW Motorrad
+Honda Motorcycles
+Yamaha Motorcycles
+Kawasaki
+Suzuki Motorcycles
+KTM
+Aprilia
+MV Agusta
+Royal Enfield
+Zero Motorcycles
+Energica
+LiveWire
+
+# ============================================
+# FOOD & BEVERAGE
+# ============================================
+Coca-Cola
+Pepsi
+Dr Pepper
+Sprite
+Fanta
+Mountain Dew
+7UP
+Gatorade
+Powerade
+Red Bull
+Monster Energy
+Rockstar Energy
+Bang Energy
+Celsius
+Prime
+Liquid Death
+LaCroix
+Perrier
+San Pellegrino
+Evian
+Fiji Water
+Smartwater
+Vitaminwater
+Nestle
+Danone
+Chobani
+Fage
+Siggi's
+Oikos
+Yoplait
+Activia
+Silk
+Oatly
+Califia Farms
+Almond Breeze
+So Delicious
+Ripple
+Elmhurst
+Minor Figures
+Oat Milk
+Ben & Jerry's
+Haagen-Dazs
+Magnum
+Talenti
+Halo Top
+Jeni's
+Salt & Straw
+Van Leeuwen
+McConnell's
+Graeter's
+Tillamook
+Blue Bunny
+Dreyer's
+Breyers
+Turkey Hill
+Friendly's
+
+# ============================================
+# SNACKS & CANDY
+# ============================================
+Lay's
+Doritos
+Cheetos
+Pringles
+Ruffles
+Tostitos
+Fritos
+SunChips
+Kettle Brand
+Cape Cod
+Utz
+Wise
+Herr's
+Snyder's
+Goldfish
+Cheez-It
+Wheat Thins
+Triscuit
+Ritz
+Club Crackers
+Town House
+Keebler
+Nabisco
+Oreo
+Chips Ahoy
+Nutter Butter
+Nilla
+Fig Newtons
+Teddy Grahams
+Belvita
+Nature Valley
+Kind
+RXBAR
+Clif Bar
+Luna Bar
+Larabar
+GoMacro
+Perfect Bar
+Built Bar
+Quest
+ONE Bar
+Think!
+Barebells
+Grenade
+PhD
+Fulfil
+Hershey's
+Reese's
+Kit Kat
+M&M's
+Snickers
+Twix
+Milky Way
+3 Musketeers
+Butterfinger
+Baby Ruth
+Crunch
+100 Grand
+Nestle Crunch
+Raisinets
+Goobers
+Sno-Caps
+Buncha Crunch
+Ferrero Rocher
+Nutella
+Kinder
+Raffaello
+Lindt
+Ghirardelli
+Godiva
+See's Candies
+Russell Stover
+Whitman's
+Fannie May
+Ethel M
+Vosges
+Compartes
+Sugarfina
+Dylan's Candy Bar
+IT'SUGAR
+Lolli and Pops
+
+# ============================================
+# COFFEE & TEA
+# ============================================
+Starbucks
+Dunkin
+Peet's Coffee
+Blue Bottle
+Intelligentsia
+Stumptown
+Counter Culture
+Verve
+La Colombe
+Philz Coffee
+Dutch Bros
+Caribou Coffee
+Tim Hortons
+Costa Coffee
+Lavazza
+Illy
+Nespresso
+Keurig
+Folgers
+Maxwell House
+Gevalia
+Peet's
+Death Wish Coffee
+Black Rifle Coffee
+Bones Coffee
+Chamberlain Coffee
+Cometeer
+Trade Coffee
+Atlas Coffee Club
+Onyx Coffee Lab
+George Howell
+Equator Coffee
+Ceremony Coffee
+Ruby Coffee
+Twinings
+Tazo
+Celestial Seasonings
+Bigelow
+Harney & Sons
+Republic of Tea
+Rishi Tea
+DAVIDsTEA
+T2
+Teavana
+Vahdam
+Art of Tea
+Palais des Thés
+Mariage Frères
+TWG Tea
+Dilmah
+
+# ============================================
+# ALCOHOL
+# ============================================
+Budweiser
+Bud Light
+Miller Lite
+Coors Light
+Corona
+Modelo
+Heineken
+Stella Artois
+Guinness
+Samuel Adams
+Blue Moon
+Sierra Nevada
+Lagunitas
+Dogfish Head
+Stone Brewing
+Founders
+Bell's
+Deschutes
+Firestone Walker
+Russian River
+Tree House
+Other Half
+Trillium
+Monkish
+Tired Hands
+The Veil
+Holy Mountain
+Great Notion
+Modern Times
+Bearded Iris
+Jack Daniel's
+Jim Beam
+Maker's Mark
+Wild Turkey
+Woodford Reserve
+Buffalo Trace
+Evan Williams
+Elijah Craig
+Four Roses
+Knob Creek
+Bulleit
+Angel's Envy
+Basil Hayden's
+Michter's
+Whistlepig
+Blanton's
+Pappy Van Winkle
+W.L. Weller
+Eagle Rare
+Henry McKenna
+Grey Goose
+Absolut
+Tito's
+Ketel One
+Belvedere
+Ciroc
+Stolichnaya
+Smirnoff
+Skyy
+New Amsterdam
+Deep Eddy
+Patron
+Don Julio
+Casamigos
+Clase Azul
+Casa Dragones
+Herradura
+1800 Tequila
+Espolon
+Milagro
+Olmeca
+Jose Cuervo
+Bacardi
+Captain Morgan
+Malibu
+Havana Club
+Don Q
+Diplomatico
+Ron Zacapa
+Appleton Estate
+Mount Gay
+Flor de Cana
+Tanqueray
+Bombay Sapphire
+Hendrick's
+The Botanist
+Monkey 47
+Aviation Gin
+Nolet's
+Plymouth
+Beefeater
+Gordon's
+Seagram's
+Hennessy
+Remy Martin
+Courvoisier
+Martell
+D'Usse
+Hine
+Camus
+Pierre Ferrand
+Johnnie Walker
+Glenfiddich
+Macallan
+Glenlivet
+Balvenie
+Lagavulin
+Laphroaig
+Ardbeg
+Talisker
+Oban
+Highland Park
+Aberlour
+Dalmore
+GlenDronach
+Glenfarclas
+Bruichladdich
+
+# ============================================
+# RESTAURANTS & FAST FOOD
+# ============================================
+McDonald's
+Burger King
+Wendy's
+Taco Bell
+KFC
+Chick-fil-A
+Popeyes
+Subway
+Domino's
+Pizza Hut
+Papa John's
+Little Caesars
+Chipotle
+Qdoba
+Moe's Southwest Grill
+Panda Express
+Five Guys
+In-N-Out
+Shake Shack
+Whataburger
+Culver's
+Steak 'n Shake
+Sonic Drive-In
+Jack in the Box
+Carl's Jr
+Hardee's
+Arby's
+Jersey Mike's
+Jimmy John's
+Firehouse Subs
+Potbelly
+Which Wich
+Panera Bread
+Au Bon Pain
+Corner Bakery
+McAlister's Deli
+Jason's Deli
+Noodles & Company
+Fazoli's
+Olive Garden
+Applebee's
+Chili's
+TGI Friday's
+Buffalo Wild Wings
+Hooters
+Twin Peaks
+Dave & Buster's
+Topgolf
+Main Event
+Cheesecake Factory
+P.F. Chang's
+BJ's Restaurant
+Red Robin
+Outback Steakhouse
+Texas Roadhouse
+LongHorn Steakhouse
+Ruth's Chris
+Morton's
+STK
+Nobu
+Benihana
+Hibachi
+Waffle House
+IHOP
+Denny's
+Cracker Barrel
+Bob Evans
+Perkins
+Village Inn
+First Watch
+Snooze
+Another Broken Egg
+Keke's
+The Original Pancake House
+Raising Cane's
+Wingstop
+Zaxby's
+Bojangles
+Church's Chicken
+El Pollo Loco
+Del Taco
+Taco Cabana
+Taco Bueno
+Green Burrito
+Chronic Tacos
+Baja Fresh
+Rubio's
+Cafe Rio
+Costa Vida
+Sizzler
+Golden Corral
+Ryan's
+Shoney's
+Ponderosa
+Bonanza
+Old Country Buffet
+HomeTown Buffet
+
+# ============================================
+# DELIVERY & FOOD SERVICES
+# ============================================
+DoorDash
+Uber Eats
+Grubhub
+Postmates
+Instacart
+Shipt
+Gopuff
+Gorillas
+Getir
+Flink
+Deliveroo
+Just Eat
+Glovo
+Rappi
+Swiggy
+Zomato
+HelloFresh
+Blue Apron
+Home Chef
+Sunbasket
+Green Chef
+Factor
+Freshly
+Daily Harvest
+Sakara
+Thistle
+Splendid Spoon
+Hungryroot
+Imperfect Foods
+Misfits Market
+Thrive Market
+Butcher Box
+Omaha Steaks
+Snake River Farms
+Crowd Cow
+Porter Road
+
+# ============================================
+# FITNESS & WELLNESS
+# ============================================
+Peloton
+Mirror
+Tonal
+Tempo
+NordicTrack
+Bowflex
+Nautilus
+Life Fitness
+Precor
+Technogym
+Rogue Fitness
+Titan Fitness
+REP Fitness
+Bells of Steel
+Fringe Sport
+Eleiko
+Concept2
+Hydrow
+Ergatta
+Aviron
+WaterRower
+AssaultBike
+Schwinn
+Echelon
+ProForm
+Sole
+Horizon
+Matrix Fitness
+Hammer Strength
+Cybex
+Star Trac
+Keiser
+TRX
+Bosu
+Balanced Body
+Merrithew
+Manduka
+Lululemon Yoga
+Alo Yoga
+prAna
+Beyond Yoga
+Vuori
+Rhone
+Ten Thousand
+Tracksmith
+Janji
+Rabbit
+Satisfy Running
+District Vision
+Ciele Athletics
+On Running
+Hoka
+Brooks
+Asics
+Saucony
+Mizuno
+Newton
+Altra
+Topo Athletic
+Craft
+2XU
+CEP
+Feetures
+Balega
+Swiftwick
+Injinji
+Darn Tough
+Smartwool
+Farm to Feet
+Point6
+
+# ============================================
+# HEALTH & SUPPLEMENTS
+# ============================================
+GNC
+Vitamin Shoppe
+iHerb
+Bodybuilding.com
+Myprotein
+Optimum Nutrition
+BSN
+MuscleTech
+Cellucor
+JYM
+Kaged
+Ghost Lifestyle
+Alani Nu
+Bloom Nutrition
+Bowmar Nutrition
+1st Phorm
+Thorne
+Pure Encapsulations
+NOW Foods
+Solgar
+Garden of Life
+Natrol
+Nature Made
+Nature's Bounty
+Centrum
+One A Day
+Ritual
+Care/of
+Hum Nutrition
+Olly
+SmartyPants
+Vimergy
+Athletic Greens
+AG1
+Liquid IV
+Nuun
+Drip Drop
+LMNT
+Cure Hydration
+Skratch Labs
+Tailwind
+Maurten
+SIS
+Gu
+Clif Shot
+Honey Stinger
+
+# ============================================
+# WEARABLES & TECH ACCESSORIES
+# ============================================
+Fitbit
+Garmin
+Whoop
+Oura
+Apple Watch
+Samsung Galaxy Watch
+Google Pixel Watch
+Amazfit
+Suunto
+Polar
+Coros
+Withings
+Xiaomi Mi Band
+Huawei Watch
+TicWatch
+Fossil Smartwatch
+Skagen
+Michael Kors Access
+Diesel On
+Emporio Armani Connected
+Tag Heuer Connected
+Montblanc Summit
+Louis Vuitton Tambour
+Hublot Big Bang e
+Breitling Exospace
+AirPods
+AirPods Pro
+AirPods Max
+Samsung Galaxy Buds
+Google Pixel Buds
+Sony WF
+Bose QuietComfort Earbuds
+Jabra Elite
+Sennheiser Momentum
+Bang & Olufsen
+Master & Dynamic
+Beats
+Beats Studio
+Beats Fit Pro
+Powerbeats
+JBL
+Anker Soundcore
+Skullcandy
+Jaybird
+1More
+Cambridge Audio
+Shure
+Audio-Technica
+Beyerdynamic
+AKG
+Grado
+Audeze
+HiFiMAN
+Focal
+Meze
+ZMF
+Dan Clark Audio
+
+# ============================================
+# GAMING HARDWARE
+# ============================================
+PlayStation
+Xbox
+Nintendo Switch
+Steam Deck
+Asus ROG
+Razer
+Logitech G
+Corsair
+SteelSeries
+HyperX
+Alienware
+MSI Gaming
+Gigabyte Aorus
+EVGA
+Zotac
+PNY
+XFX
+Sapphire
+PowerColor
+ASRock
+Cooler Master
+NZXT
+Lian Li
+Fractal Design
+Phanteks
+be quiet!
+Thermaltake
+DeepCool
+Noctua
+Arctic
+Scythe
+Cryorig
+EKWB
+Corsair Hydro
+NZXT Kraken
+Alphacool
+Aqua Computer
+Bitspower
+Singularity Computers
+Bykski
+Barrow
+
+# ============================================
+# SMART HOME
+# ============================================
+Google Nest
+Amazon Echo
+Apple HomePod
+Sonos
+Bose Home
+Samsung SmartThings
+Philips Hue
+LIFX
+Nanoleaf
+Govee
+Wyze
+Ring
+Arlo
+Nest Cam
+Eufy
+Blink
+SimpliSafe
+ADT
+Vivint
+Frontpoint
+Abode
+Scout Alarm
+Cove
+Ecobee
+Nest Thermostat
+Honeywell Home
+Emerson Sensi
+August
+Yale
+Schlage
+Kwikset
+Level
+Ultraloq
+Lockly
+Wyze Lock
+Roomba
+iRobot
+Roborock
+Ecovacs
+Shark
+Dyson
+Samsung Jet Bot
+LG CordZero
+Tineco
+Bissell
+Hoover
+
+# ============================================
+# FURNITURE & HOME
+# ============================================
+IKEA
+Wayfair
+West Elm
+Pottery Barn
+Crate & Barrel
+CB2
+Restoration Hardware
+Arhaus
+Ethan Allen
+Room & Board
+Design Within Reach
+Herman Miller
+Knoll
+Steelcase
+Haworth
+Humanscale
+Branch
+Fully
+Autonomous
+Uplift Desk
+Flexispot
+Vari
+Secretlab
+Razer Chair
+Noblechairs
+AndaSeat
+DXRacer
+AKRacing
+Vertagear
+Cougar
+Mavix
+X-Chair
+Casper
+Purple
+Tempur-Pedic
+Sleep Number
+Saatva
+Nectar
+Tuft & Needle
+Leesa
+Helix
+Brooklyn Bedding
+Avocado
+Birch
+PlushBeds
+Naturepedic
+Sealy
+Serta
+Simmons
+Beautyrest
+Stearns & Foster
+
+# ============================================
+# TRAVEL & AIRLINES
+# ============================================
+United Airlines
+American Airlines
+Delta
+Southwest Airlines
+JetBlue
+Alaska Airlines
+Spirit Airlines
+Frontier Airlines
+Hawaiian Airlines
+Allegiant Air
+Sun Country
+Breeze Airways
+Avelo Airlines
+British Airways
+Virgin Atlantic
+Air France
+KLM
+Lufthansa
+Emirates
+Qatar Airways
+Etihad
+Singapore Airlines
+Cathay Pacific
+Japan Airlines
+ANA
+Korean Air
+Asiana
+Thai Airways
+Air Canada
+WestJet
+Qantas
+Air New Zealand
+LATAM
+Avianca
+Copa Airlines
+Aeromexico
+Volaris
+VivaAerobus
+EasyJet
+Ryanair
+Wizz Air
+Norwegian
+Vueling
+Transavia
+Eurowings
+Iberia
+TAP Portugal
+Swiss
+Austrian
+Brussels Airlines
+SAS
+Finnair
+Icelandair
+Turkish Airlines
+El Al
+Saudia
+Oman Air
+Gulf Air
+Royal Jordanian
+EgyptAir
+Ethiopian Airlines
+Kenya Airways
+South African Airways
+Air Mauritius
+Air Seychelles
+
+# ============================================
+# HOTELS & HOSPITALITY
+# ============================================
+Marriott
+Hilton
+Hyatt
+IHG
+Wyndham
+Choice Hotels
+Best Western
+Radisson
+Accor
+Four Seasons
+Ritz-Carlton
+St. Regis
+W Hotels
+JW Marriott
+Westin
+Sheraton
+Le Meridien
+Autograph Collection
+Tribute Portfolio
+Courtyard
+Residence Inn
+SpringHill Suites
+Fairfield Inn
+TownePlace Suites
+Waldorf Astoria
+Conrad
+Canopy
+Curio Collection
+Tapestry
+Embassy Suites
+Doubletree
+Hampton Inn
+Hilton Garden Inn
+Homewood Suites
+Home2 Suites
+Tru by Hilton
+Motto by Hilton
+LXR Hotels
+Park Hyatt
+Andaz
+Grand Hyatt
+Hyatt Regency
+Hyatt Place
+Hyatt House
+Thompson Hotels
+Alila
+Destination Hotels
+Joie de Vivre
+Kimpton
+InterContinental
+Crowne Plaza
+Holiday Inn
+Holiday Inn Express
+Staybridge Suites
+Candlewood Suites
+Hotel Indigo
+Even Hotels
+avid hotels
+Regent
+Six Senses
+Vignette Collection
+Airbnb
+Vrbo
+Booking.com
+Expedia
+Hotels.com
+Kayak
+Trivago
+Hopper
+Priceline
+Agoda
+Trip.com
+Travelocity
+
+# ============================================
+# CRUISE LINES
+# ============================================
+Carnival
+Royal Caribbean
+Norwegian Cruise Line
+MSC Cruises
+Princess Cruises
+Holland America
+Celebrity Cruises
+Disney Cruise Line
+Virgin Voyages
+Cunard
+Viking Cruises
+Oceania Cruises
+Regent Seven Seas
+Seabourn
+Silversea
+Azamara
+Windstar
+Hurtigruten
+Lindblad Expeditions
+Ponant
+Explora Journeys
+Ritz-Carlton Yacht
+Four Seasons Yacht
+
+# ============================================
+# CAR RENTAL
+# ============================================
+Enterprise
+Hertz
+Avis
+Budget
+National
+Alamo
+Dollar
+Thrifty
+Sixt
+Europcar
+Turo
+Getaround
+Zipcar
+
+# ============================================
+# RIDE SHARING & TRANSPORT
+# ============================================
+Uber
+Lyft
+Bolt
+Via
+Curb
+Gett
+Ola
+Grab
+Didi
+Cabify
+Free Now
+Blacklane
+Careem
+Lime
+Bird
+Spin
+Tier
+Voi
+Superpedestrian
+Helbiz
+
+# ============================================
+# INSURANCE
+# ============================================
+State Farm
+Geico
+Progressive
+Allstate
+USAA
+Liberty Mutual
+Farmers
+Nationwide
+Travelers
+American Family
+Erie Insurance
+Auto-Owners
+Shelter Insurance
+Amica
+The Hartford
+Chubb
+AIG
+Zurich
+Allianz
+AXA
+MetLife
+Prudential
+New York Life
+Northwestern Mutual
+MassMutual
+Lincoln Financial
+Principal
+Aflac
+Cigna
+Aetna
+UnitedHealthcare
+Blue Cross Blue Shield
+Humana
+Kaiser Permanente
+Anthem
+Centene
+Molina
+Oscar Health
+Clover Health
+Bright Health
+Lemonade
+Hippo
+Root Insurance
+Metromile
+Clearcover
+Kin Insurance
+Branch Insurance
+
+# ============================================
+# BANKING & FINANCE
+# ============================================
+JPMorgan Chase
+Bank of America
+Wells Fargo
+Citibank
+US Bank
+PNC
+Capital One
+TD Bank
+Truist
+Fifth Third
+Regions
+KeyBank
+Huntington
+M&T Bank
+Citizens Bank
+BMO Harris
+HSBC
+Santander
+Barclays
+Deutsche Bank
+UBS
+Credit Suisse
+BNP Paribas
+Societe Generale
+ING
+ABN AMRO
+Lloyds
+NatWest
+Standard Chartered
+Goldman Sachs
+Morgan Stanley
+Charles Schwab
+Fidelity Investments
+Vanguard
+BlackRock
+State Street
+T. Rowe Price
+Franklin Templeton
+Invesco
+PIMCO
+Wellington
+Northern Trust
+BNY Mellon
+Raymond James
+Edward Jones
+Ameriprise
+LPL Financial
+Stifel
+RBC Wealth Management
+UBS Wealth Management
+Robinhood
+E*Trade
+TD Ameritrade
+Interactive Brokers
+Webull
+Public
+Stash
+Acorns
+Betterment
+Wealthfront
+Ellevest
+SoFi
+Chime
+Varo
+Current
+Dave
+Earnin
+MoneyLion
+Brigit
+Albert
+Cleo
+Empower
+Mint
+YNAB
+Personal Capital
+NerdWallet
+Credit Karma
+Bankrate
+LendingTree
+Quicken Loans
+Rocket Mortgage
+Better.com
+LoanDepot
+United Wholesale
+PennyMac
+Mr. Cooper
+Freedom Mortgage
+Caliber Home Loans
+Guaranteed Rate
+CrossCountry Mortgage
+Movement Mortgage
+Fairway
+Guild Mortgage
+AmeriSave
+New American Funding
+
+# ============================================
+# CREDIT CARDS
+# ============================================
+American Express
+Visa
+Mastercard
+Discover
+Diners Club
+Chase Sapphire
+Amex Platinum
+Amex Gold
+Capital One Venture
+Citi Premier
+US Bank Altitude
+Wells Fargo Active Cash
+Bank of America Premium
+Barclays Arrival
+HSBC Premier
+Brex
+Ramp
+Divvy
+Airbase
+
+# ============================================
+# PAYMENT & FINTECH
+# ============================================
+PayPal
+Venmo
+Cash App
+Zelle
+Apple Pay
+Google Pay
+Samsung Pay
+Stripe
+Square
+Shopify Payments
+Adyen
+Worldpay
+Fiserv
+Global Payments
+Checkout.com
+Mollie
+Klarna
+Affirm
+Afterpay
+Sezzle
+Zip
+Splitit
+Bread
+Uplift
+Katapult
+Snap Finance
+Progressive Leasing
+Acima
+Plaid
+Yodlee
+Finicity
+MX
+Argyle
+Pinwheel
+Atomic
+Truework
+
+# ============================================
+# CRYPTO & WEB3
+# ============================================
+Coinbase
+Binance
+Kraken
+Gemini
+Crypto.com
+FTX
+Bitfinex
+Bitstamp
+KuCoin
+Huobi
+OKX
+Bybit
+Gate.io
+MEXC
+Bitget
+Phemex
+dYdX
+Uniswap
+Aave
+Compound
+MakerDAO
+Curve
+Balancer
+SushiSwap
+PancakeSwap
+1inch
+Paraswap
+0x Protocol
+OpenSea
+Blur
+LooksRare
+X2Y2
+Rarible
+Foundation
+SuperRare
+Nifty Gateway
+MakersPlace
+KnownOrigin
+Async Art
+Art Blocks
+Metamask
+Trust Wallet
+Phantom
+Rainbow
+Argent
+Ledger
+Trezor
+Exodus
+Blockchain.com Wallet
+Coinomi
+Atomic Wallet
+
+# ============================================
+# EDUCATION & LEARNING
+# ============================================
+Coursera
+Udemy
+edX
+LinkedIn Learning
+Skillshare
+MasterClass
+Brilliant
+Khan Academy
+Duolingo
+Babbel
+Rosetta Stone
+Busuu
+Pimsleur
+Memrise
+Lingoda
+italki
+Preply
+Wyzant
+Varsity Tutors
+Chegg
+Course Hero
+Quizlet
+Brainly
+Photomath
+Mathway
+Wolfram Alpha
+Grammarly
+ProWritingAid
+Hemingway Editor
+Scribens
+LanguageTool
+Ginger
+WhiteSmoke
+Codecademy
+freeCodeCamp
+The Odin Project
+Treehouse
+Pluralsight
+DataCamp
+Dataquest
+365 Data Science
+Udacity
+Springboard
+Thinkful
+General Assembly
+Flatiron School
+App Academy
+Hack Reactor
+Fullstack Academy
+Lambda School
+BloomTech
+Turing School
+Launch Academy
+CareerFoundry
+BrainStation
+Ironhack
+Le Wagon
+Makers Academy
+Northcoders
+School of Code
+
+# ============================================
+# KIDS & BABY
+# ============================================
+Pampers
+Huggies
+Luvs
+Honest Company
+Seventh Generation
+Babyganics
+Hello Bello
+DYPER
+Coterie
+Kudos
+Millie Moon
+Rascal + Friends
+Gerber
+Beech-Nut
+Happy Baby
+Earth's Best
+Plum Organics
+Once Upon a Farm
+Serenity Kids
+Little Spoon
+Yumi
+Cerebelly
+Amara
+Square Baby
+Raised Real
+Tiny Organics
+Nurture Life
+Little Foodie Club
+Baby Brezza
+HALO
+Owlet
+Nanit
+Miku
+Snoo
+Happiest Baby
+4moms
+Graco
+Chicco
+Britax
+Uppababy
+Bugaboo
+Nuna
+Cybex
+Stokke
+Doona
+Baby Jogger
+BOB
+Thule
+Evenflo
+Safety 1st
+Fisher-Price
+VTech
+LeapFrog
+Melissa & Doug
+Lovevery
+KiwiCo
+Little Passports
+Highlights
+National Geographic Kids
+
+# ============================================
+# PET BRANDS
+# ============================================
+Chewy
+Petco
+PetSmart
+BarkBox
+Ollie
+The Farmer's Dog
+Nom Nom
+Spot & Tango
+JustFoodForDogs
+Pet Plate
+Open Farm
+Stella & Chewy's
+Primal Pet Foods
+Instinct
+Orijen
+Acana
+Blue Buffalo
+Purina
+Royal Canin
+Hill's Science Diet
+Iams
+Eukanuba
+Nutro
+Wellness
+Merrick
+Canidae
+Taste of the Wild
+Diamond Pet Foods
+Fromm
+Nature's Variety
+Ziwi Peak
+K9 Natural
+Weruva
+Tiki Cat
+Fancy Feast
+Friskies
+Meow Mix
+9Lives
+Sheba
+Temptations
+Greenies
+Milk-Bone
+Beggin'
+Pup-Peroni
+Blue Dog Bakery
+Bocce's Bakery
+Zuke's
+Cloud Star
+Old Mother Hubbard
+Three Dog Bakery
+
+# ============================================
+# OFFICE & PRODUCTIVITY
+# ============================================
+Microsoft Office
+Google Workspace
+Notion
+Airtable
+Monday.com
+Asana
+Trello
+Jira
+Confluence
+Basecamp
+Clickup
+Wrike
+Smartsheet
+Teamwork
+Podio
+Zoho
+Freshworks
+HubSpot
+Pipedrive
+Copper
+Insightly
+Nimble
+Nutshell
+Less Annoying CRM
+Streak
+Close
+Salesloft
+Outreach
+Gong
+Chorus
+ZoomInfo
+Apollo
+Lusha
+Clearbit
+6sense
+Bombora
+Demandbase
+Terminus
+RollWorks
+Metadata
+Drift
+Intercom
+Zendesk
+Freshdesk
+Help Scout
+Crisp
+Olark
+LiveChat
+Tidio
+Tawk.to
+
+# ============================================
+# DESIGN & CREATIVE
+# ============================================
+Adobe Creative Cloud
+Figma
+Sketch
+InVision
+Framer
+Webflow
+Wix
+Squarespace
+WordPress
+Canva
+PicMonkey
+Fotor
+BeFunky
+Pixlr
+Photopea
+GIMP
+Affinity
+Corel
+Procreate
+Clip Studio Paint
+Krita
+Autodesk
+AutoCAD
+SketchUp
+Blender
+Cinema 4D
+Maya
+3ds Max
+ZBrush
+Houdini
+Substance
+Marvelous Designer
+CLO 3D
+Browzwear
+VStitcher
+Optitex
+Lectra
+Gerber
+Clo Virtual Fashion
+Style3D
+
+# ============================================
+# DEVELOPER TOOLS
+# ============================================
+GitHub
+GitLab
+Bitbucket
+AWS
+Azure
+Google Cloud
+Heroku
+Vercel
+Netlify
+DigitalOcean
+Linode
+Vultr
+Render
+Railway
+Fly.io
+PlanetScale
+Supabase
+Firebase
+Fauna
+CockroachDB
+Neon
+Upstash
+Redis
+Algolia
+Meilisearch
+Typesense
+Elasticsearch
+Splunk
+Datadog
+New Relic
+Dynatrace
+AppDynamics
+Honeycomb
+Lightstep
+Grafana
+Prometheus
+InfluxDB
+TimescaleDB
+Sentry
+Rollbar
+BugSnag
+LogRocket
+FullStory
+Heap
+Amplitude
+Mixpanel
+Segment
+mParticle
+RudderStack
+Snowplow
+LaunchDarkly
+Split
+Optimizely
+VWO
+AB Tasty
+Kameleoon
+Eppo
+Statsig
+PostHog
+Pendo
+WalkMe
+Whatfix
+Appcues
+UserGuiding
+Chameleon
+Stonly
+Userpilot
+
+# ============================================
+# TELECOMMUNICATIONS
+# ============================================
+AT&T
+Verizon
+T-Mobile
+Sprint
+US Cellular
+Cricket
+Metro by T-Mobile
+Boost Mobile
+Mint Mobile
+Visible
+Google Fi
+Ting
+Republic Wireless
+Consumer Cellular
+Straight Talk
+TracFone
+Simple Mobile
+Total Wireless
+H2O Wireless
+Lycamobile
+Ultra Mobile
+TextNow
+FreedomPop
+Xfinity Mobile
+Spectrum Mobile
+Altice Mobile
+Optimum Mobile
+Comcast
+Charter
+Cox
+CenturyLink
+Lumen
+Frontier
+Windstream
+Consolidated
+TDS
+Cincinnati Bell
+Atlantic Broadband
+WOW
+Mediacom
+Cable One
+Breezeline
+Astound
+
+# ============================================
+# UTILITIES & ENERGY
+# ============================================
+Duke Energy
+Southern Company
+Dominion Energy
+Exelon
+National Grid
+AEP
+Xcel Energy
+WEC Energy
+Eversource
+PPL
+Ameren
+CMS Energy
+Entergy
+Alliant Energy
+Evergy
+OGE Energy
+PNM Resources
+Black Hills
+Avista
+NorthWestern
+Portland General
+PG&E
+SoCal Edison
+SDG&E
+ConEdison
+PSEG
+FirstEnergy
+AES
+NRG Energy
+Vistra
+Constellation
+Calpine
+NextEra Energy
+Clearway Energy
+Pattern Energy
+Invenergy
+EDP Renewables
+Orsted
+Iberdrola
+Enel
+Engie
+Total Energies
+Shell Energy
+BP Energy
+Chevron
+ExxonMobil
+ConocoPhillips
+Marathon Oil
+Devon Energy
+Pioneer Natural
+EOG Resources
+Occidental
+Diamondback
+Apache
+Hess
+Murphy Oil
+Ovintiv
+Continental Resources
+Coterra Energy
+Chesapeake Energy
+Antero Resources
+Range Resources
+EQT
+Southwestern Energy
+Cabot Oil & Gas
+Comstock Resources
+
+# ============================================
+# MEDIA & PUBLISHING
+# ============================================
+New York Times
+Washington Post
+Wall Street Journal
+USA Today
+Los Angeles Times
+Chicago Tribune
+Boston Globe
+San Francisco Chronicle
+Philadelphia Inquirer
+Houston Chronicle
+Dallas Morning News
+Atlanta Journal-Constitution
+Miami Herald
+Denver Post
+Seattle Times
+Minneapolis Star Tribune
+Arizona Republic
+Detroit Free Press
+Tampa Bay Times
+Orlando Sentinel
+Baltimore Sun
+Cleveland Plain Dealer
+Pittsburgh Post-Gazette
+St. Louis Post-Dispatch
+Indianapolis Star
+Milwaukee Journal Sentinel
+Kansas City Star
+San Diego Union-Tribune
+Sacramento Bee
+Austin American-Statesman
+San Antonio Express-News
+Portland Oregonian
+Newsday
+Hartford Courant
+Buffalo News
+Las Vegas Review-Journal
+Raleigh News & Observer
+Charlotte Observer
+Columbus Dispatch
+Cincinnati Enquirer
+New Orleans Times-Picayune
+Oklahoma City Oklahoman
+Salt Lake Tribune
+Honolulu Star-Advertiser
+Anchorage Daily News
+Bloomberg
+Reuters
+Associated Press
+AFP
+UPI
+Axios
+Politico
+The Hill
+Roll Call
+National Journal
+The Atlantic
+The New Yorker
+Harper's
+Vanity Fair
+GQ
+Esquire
+Men's Health
+Women's Health
+Self
+Shape
+Prevention
+Good Housekeeping
+Better Homes & Gardens
+Real Simple
+Martha Stewart Living
+Bon Appetit
+Food & Wine
+Epicurious
+Taste of Home
+Allrecipes
+Food Network
+Cooking Light
+EatingWell
+Saveur
+Cook's Illustrated
+Cook's Country
+America's Test Kitchen
+Serious Eats
+The Kitchn
+Delish
+Tasty
+BuzzFeed
+HuffPost
+Vice
+Vox
+The Verge
+Wired
+Ars Technica
+TechCrunch
+Engadget
+Gizmodo
+Mashable
+CNET
+ZDNet
+PCMag
+Tom's Hardware
+AnandTech
+Digital Trends
+The Information
+Protocol
+Semafor
+Puck
+Defector
+The Ringer
+Barstool Sports
+Bleacher Report
+ESPN
+Sports Illustrated
+The Athletic
+Yahoo Sports
+CBS Sports
+NBC Sports
+Fox Sports
+Sporting News
+Complex
+Hypebeast
+Highsnobiety
+Dazed
+i-D
+Paper
+Interview
+W Magazine
+Vogue
+Elle
+Harper's Bazaar
+Marie Claire
+InStyle
+Glamour
+Allure
+Cosmopolitan
+Seventeen
+Teen Vogue
+Nylon
+Refinery29
+Who What Wear
+Coveteur
+The Cut
+Man Repeller
+Goop
+Poosh
+Into The Gloss
+Fashionista
+Business of Fashion
+WWD
+Vogue Business
+Architectural Digest
+Dwell
+Dezeen
+Wallpaper
+Surface
+Interior Design
+House Beautiful
+Elle Decor
+Veranda
+Traditional Home
+Luxe Interiors + Design
+Robb Report
+DuJour
+Departures
+Conde Nast Traveler
+Travel + Leisure
+AFAR
+National Geographic Traveler
+Lonely Planet
+Fodor's
+Frommer's
+Rick Steves
+TripAdvisor
+Viator
+GetYourGuide
+Klook
+Civitatis
+Tiqets
+Musement
+
+# ============================================
+# SPORTS TEAMS & LEAGUES
+# ============================================
+NFL
+NBA
+MLB
+NHL
+MLS
+Premier League
+La Liga
+Bundesliga
+Serie A
+Ligue 1
+Champions League
+Formula 1
+NASCAR
+IndyCar
+MotoGP
+UFC
+WWE
+AEW
+PGA Tour
+LPGA
+ATP
+WTA
+FIFA
+UEFA
+Olympics
+Paralympics
+NCAA
+ESPN
+Fox Sports
+CBS Sports
+NBC Sports
+TNT Sports
+Sky Sports
+BT Sport
+DAZN
+Peacock Sports
+Paramount+ Sports
+Apple TV MLS
+Amazon Prime NFL
+YouTube TV
+FuboTV
+Sling TV
+Hulu Live
+DirecTV Stream
+
+# ============================================
+# NON-PROFITS & CAUSES
+# ============================================
+Red Cross
+UNICEF
+World Wildlife Fund
+Doctors Without Borders
+Save the Children
+Habitat for Humanity
+Feeding America
+St. Jude Children's Research Hospital
+Make-A-Wish
+American Cancer Society
+American Heart Association
+Alzheimer's Association
+Michael J. Fox Foundation
+Susan G. Komen
+Breast Cancer Research Foundation
+Stand Up To Cancer
+ASPCA
+Humane Society
+PETA
+Sierra Club
+Greenpeace
+Environmental Defense Fund
+Natural Resources Defense Council
+Conservation International
+The Nature Conservancy
+World Resources Institute
+Rainforest Alliance
+Ocean Conservancy
+Surfrider Foundation
+350.org
+Climate Reality Project
+Sunrise Movement
+Extinction Rebellion
+Fridays for Future
+Amnesty International
+Human Rights Watch
+ACLU
+Southern Poverty Law Center
+NAACP
+National Urban League
+Equal Justice Initiative
+Innocence Project
+Vera Institute
+Brennan Center
+FairVote
+Common Cause
+League of Women Voters
+Rock the Vote
+Vote.org
+HeadCount
+When We All Vote
+All Voting Is Local
+Black Voters Matter
+Mi Familia Vota
+NALEO
+Asian Americans Advancing Justice
+Native American Rights Fund
+Lambda Legal
+GLAAD
+Human Rights Campaign
+Trevor Project
+PFLAG
+It Gets Better Project
+Born This Way Foundation
+Mental Health America
+NAMI
+Crisis Text Line
+988 Suicide & Crisis Lifeline
+To Write Love on Her Arms
+Active Minds
+JED Foundation
+American Foundation for Suicide Prevention
+Depression and Bipolar Support Alliance
+Anxiety and Depression Association
+International OCD Foundation
+PTSD Foundation
+Wounded Warrior Project
+Gary Sinise Foundation
+Team Rubicon
+Mission BBQ
+Honor Flight
+Folds of Honor
+Tunnel to Towers
+Fisher House
+Operation Homefront
+Blue Star Families
+Military OneSource
+USO
+Armed Services YMCA
+Veterans of Foreign Wars
+American Legion
+DAV
+PVA
+Blinded Veterans Association
+AMVETS
+Vietnam Veterans of America
+Iraq and Afghanistan Veterans of America
+
+# ============================================
+# GOVERNMENT & INSTITUTIONS
+# ============================================
+White House
+US Congress
+US Senate
+US House
+Supreme Court
+Department of State
+Department of Defense
+Department of Treasury
+Department of Justice
+Department of Interior
+Department of Agriculture
+Department of Commerce
+Department of Labor
+Department of HHS
+Department of HUD
+Department of Transportation
+Department of Energy
+Department of Education
+Department of Veterans Affairs
+Department of Homeland Security
+EPA
+NASA
+NOAA
+NIH
+CDC
+FDA
+USDA
+FCC
+FTC
+SEC
+CFTC
+FDIC
+Federal Reserve
+IRS
+FEMA
+Secret Service
+FBI
+CIA
+NSA
+DIA
+ATF
+DEA
+Marshals Service
+ICE
+CBP
+TSA
+Coast Guard
+National Guard
+US Army
+US Navy
+US Air Force
+US Marine Corps
+Space Force

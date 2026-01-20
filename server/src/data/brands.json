@@ -1,0 +1,14 @@
+{
+  "advertisers": {
+    "adidas": {
+      "advertiserId": "AR14017378248766259201",
+      "name": "Adidas America, Inc",
+      "domain": "adidas.com"
+    }
+  },
+  "_metadata": {
+    "lastUpdated": "2026-01-20",
+    "totalAdvertisers": 1,
+    "note": "Google Ads advertiser IDs cached for faster lookups"
+  }
+}
