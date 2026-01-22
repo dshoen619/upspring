@@ -6,6 +6,8 @@
 import { Router, Request, Response } from 'express';
 import { GoogleAdsService } from '../services/google-ads';
 import { Ad, ApifyError, ApifyErrorCode } from '../types';
+import { searchHistoryService } from '../services/searchHistory';
+import { CachedAd } from '../types/searchHistory';
 
 const router = Router();
 
@@ -36,6 +38,8 @@ interface AdsSearchResponse {
   brandSource?: 'cached' | 'discovered' | 'not_verified';
   /** The verified brand name (may differ from search term) */
   verifiedBrandName?: string;
+  /** Whether results came from DynamoDB cache */
+  fromCache?: boolean;
 }
 
 /**
@@ -96,24 +100,70 @@ router.get('/search', async (req: Request, res: Response<AdsSearchResponse>) => 
   }
 
   try {
+    const trimmedBrand = brand.trim();
+
+    // Check for cached results (within last 24 hours)
+    const cachedSearch = await searchHistoryService.getCachedSearch(trimmedBrand);
+
+    if (cachedSearch) {
+      log.info('Returning cached search results', {
+        brand: trimmedBrand,
+        searchId: cachedSearch.searchId,
+        searchedAt: cachedSearch.searchedAt,
+        resultCount: cachedSearch.resultCount,
+      });
+
+      // Convert cached ads back to Ad format
+      const cachedAds: Ad[] = cachedSearch.results.map((cached: CachedAd) => ({
+        id: cached.id,
+        adLibraryId: cached.adArchiveId,
+        brandName: cached.pageName,
+        pageId: cached.pageId,
+        headline: cached.adCreativeLinkTitle,
+        primaryText: cached.adCreativeBody,
+        description: cached.adCreativeLinkDescription,
+        caption: cached.adCreativeLinkCaption,
+        imageUrl: cached.images[0],
+        videoUrl: cached.videos[0],
+        media: [
+          ...cached.images.map(url => ({ type: 'image' as const, url })),
+          ...cached.videos.map(url => ({ type: 'video' as const, url })),
+        ],
+        platforms: cached.platforms as Ad['platforms'],
+        format: 'unknown' as const,
+        startDate: cached.startDate ? new Date(cached.startDate) : undefined,
+        endDate: cached.endDate ? new Date(cached.endDate) : undefined,
+        status: cached.isActive ? 'active' as const : 'inactive' as const,
+        performanceSignals: cached.currency ? { currency: cached.currency } : undefined,
+        fetchedAt: new Date(cachedSearch.searchedAt),
+      }));
+
+      return res.json({
+        success: true,
+        ads: cachedAds.slice(0, parsedMaxAds),
+        total: cachedAds.length,
+        fromCache: true,
+      });
+    }
+
     // Initialize the GoogleAdsService
     const googleAdsService = new GoogleAdsService();
 
     log.info('Fetching ads from Google Ads Transparency Center', {
-      brand: brand.trim(),
+      brand: trimmedBrand,
       maxAds: parsedMaxAds,
       countryCode: parsedCountryCode,
     });
 
     // Fetch ads using the service
-    const result = await googleAdsService.fetchAdsByBrand(brand.trim(), {
+    const result = await googleAdsService.fetchAdsByBrand(trimmedBrand, {
       maxAds: parsedMaxAds,
       countryCode: parsedCountryCode,
     });
 
     if (!result.success) {
       log.warn('Ad fetch unsuccessful', {
-        brand: brand.trim(),
+        brand: trimmedBrand,
         error: result.error,
         errorCode: result.errorCode,
       });
@@ -130,7 +180,7 @@ router.get('/search', async (req: Request, res: Response<AdsSearchResponse>) => 
     }
 
     log.info('Ads fetched successfully', {
-      brand: brand.trim(),
+      brand: trimmedBrand,
       count: result.ads.length,
       totalFound: result.totalFound,
       brandSource: result.brandSource,
@@ -138,12 +188,23 @@ router.get('/search', async (req: Request, res: Response<AdsSearchResponse>) => 
       durationMs: result.metadata?.durationMs,
     });
 
+    // Save to DynamoDB cache only if we have results (fire and forget, don't block response)
+    if (result.ads.length > 0) {
+      searchHistoryService.saveSearch(trimmedBrand, result.ads).catch((saveError) => {
+        log.warn('Failed to save search to cache', {
+          brand: trimmedBrand,
+          error: saveError instanceof Error ? saveError.message : 'Unknown error',
+        });
+      });
+    }
+
     return res.json({
       success: true,
       ads: result.ads,
       total: result.ads.length,
       brandSource: result.brandSource,
       verifiedBrandName: result.verifiedBrandName,
+      fromCache: false,
     });
   } catch (error) {
     // Handle ApifyError specifically
@@ -191,6 +252,8 @@ function getStatusCodeForApifyError(errorCode?: ApifyErrorCode): number {
   switch (errorCode) {
     case ApifyErrorCode.INVALID_API_KEY:
       return 401;
+    case ApifyErrorCode.USAGE_QUOTA_EXCEEDED:
+      return 402;
     case ApifyErrorCode.RATE_LIMIT:
       return 429;
     case ApifyErrorCode.ACTOR_NOT_FOUND:
@@ -214,6 +277,8 @@ function getUserFriendlyErrorMessage(errorCode: ApifyErrorCode, originalMessage:
   switch (errorCode) {
     case ApifyErrorCode.INVALID_API_KEY:
       return 'Service configuration error. Please contact support.';
+    case ApifyErrorCode.USAGE_QUOTA_EXCEEDED:
+      return 'Ad search service quota exceeded. Please try again later or contact support.';
     case ApifyErrorCode.RATE_LIMIT:
       return 'Too many requests. Please wait a moment and try again.';
     case ApifyErrorCode.ACTOR_NOT_FOUND:

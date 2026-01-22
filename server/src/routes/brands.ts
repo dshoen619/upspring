@@ -10,18 +10,24 @@ import { join } from 'path';
 const router = Router();
 
 /**
- * Type definition for a brand entry in the cache
+ * Type definition for an advertiser entry in the cache
  */
-interface BrandEntry {
-  pageId: string;
+interface AdvertiserEntry {
+  advertiserId: string;
   name: string;
+  domain?: string;
 }
 
 /**
  * Type definition for the brands cache file structure
  */
 interface BrandsCache {
-  brands: Record<string, BrandEntry>;
+  advertisers: Record<string, AdvertiserEntry>;
+  _metadata?: {
+    lastUpdated: string;
+    totalAdvertisers: number;
+    note?: string;
+  };
 }
 
 /**
@@ -49,8 +55,8 @@ router.get('/', async (_req: Request, res: Response<BrandsListResponse>) => {
     const brandsCache: BrandsCache = JSON.parse(fileContent);
 
     // Extract brand names from the cache and sort alphabetically (case-insensitive)
-    const brandNames = Object.values(brandsCache.brands)
-      .map((brand) => brand.name)
+    const brandNames = Object.values(brandsCache.advertisers || {})
+      .map((advertiser) => advertiser.name)
       .sort((a, b) => a.toLowerCase().localeCompare(b.toLowerCase()));
 
     return res.json({

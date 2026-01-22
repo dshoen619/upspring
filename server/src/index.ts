@@ -41,6 +41,7 @@ app.listen(PORT, () => {
   console.log(`Ads API available at http://localhost:${PORT}/api/ads`);
   console.log(`AI API available at http://localhost:${PORT}/api/ai`);
   console.log(`Brands API available at http://localhost:${PORT}/api/brands`);
+  console.log(`Search History API available at http://localhost:${PORT}/api/search-history`);
 });
 
 export default app;

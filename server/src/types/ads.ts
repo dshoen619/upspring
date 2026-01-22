@@ -294,6 +294,8 @@ export enum ApifyErrorCode {
   TIMEOUT = 'TIMEOUT',
   /** Rate limit exceeded */
   RATE_LIMIT = 'RATE_LIMIT',
+  /** Apify usage quota/tokens exceeded */
+  USAGE_QUOTA_EXCEEDED = 'USAGE_QUOTA_EXCEEDED',
   /** No results found */
   NO_RESULTS = 'NO_RESULTS',
   /** Network error */

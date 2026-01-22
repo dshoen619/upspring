@@ -344,10 +344,17 @@ export class GoogleAdsService {
       }
 
       if (items.length === 0) {
+        // 0 results often indicates a service error (JSON parse errors, etc.)
+        // Return as an error so the user knows something went wrong
+        this.logger.warn('No ads returned - possible service issue', {
+          brand: trimmedBrandName,
+          runId: run.id,
+        });
         return {
-          success: true,
+          success: false,
           ads: [],
-          totalFound: 0,
+          error: 'No ads found. The ad service may be experiencing issues. Please try again later.',
+          errorCode: ApifyErrorCode.RUN_FAILED,
           brandSource: 'not_verified',
           metadata: {
             query: trimmedBrandName,

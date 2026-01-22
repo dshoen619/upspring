@@ -5,6 +5,8 @@ import type {
   FetchAdsResponse,
   AdsAnalysisResponse,
   CompetitorSuggestionsResponse,
+  SearchHistoryResponse,
+  CachedSearchResponse,
 } from '../types';
 
 const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:3001';
@@ -149,6 +151,58 @@ export async function healthCheck(): Promise<boolean> {
     return response.data.status === 'ok';
   } catch {
     return false;
+  }
+}
+
+/**
+ * Get search history
+ */
+export async function getSearchHistory(limit?: number): Promise<SearchHistoryResponse> {
+  try {
+    const params = new URLSearchParams();
+    if (limit) {
+      params.append('limit', limit.toString());
+    }
+
+    const response = await api.get<SearchHistoryResponse>(
+      `/api/search-history${params.toString() ? `?${params}` : ''}`
+    );
+    return response.data;
+  } catch (error) {
+    return {
+      success: false,
+      error: handleError(error),
+    };
+  }
+}
+
+/**
+ * Get a cached search by ID
+ */
+export async function getSearchById(searchId: string): Promise<CachedSearchResponse> {
+  try {
+    const response = await api.get<CachedSearchResponse>(`/api/search-history/${searchId}`);
+    return response.data;
+  } catch (error) {
+    return {
+      success: false,
+      error: handleError(error),
+    };
+  }
+}
+
+/**
+ * Delete a search from history
+ */
+export async function deleteSearch(searchId: string): Promise<{ success: boolean; error?: string }> {
+  try {
+    const response = await api.delete<{ success: boolean }>(`/api/search-history/${searchId}`);
+    return response.data;
+  } catch (error) {
+    return {
+      success: false,
+      error: handleError(error),
+    };
   }
 }
 

@@ -4,11 +4,16 @@
       "advertiserId": "AR14017378248766259201",
       "name": "Adidas America, Inc",
       "domain": "adidas.com"
+    },
+    "coca cola": {
+      "advertiserId": "AR09258117703804125185",
+      "name": "Mediacom Ltd",
+      "domain": "coca-cola.com"
     }
   },
   "_metadata": {
-    "lastUpdated": "2026-01-20",
-    "totalAdvertisers": 1,
+    "lastUpdated": "2026-01-22",
+    "totalAdvertisers": 2,
     "note": "Google Ads advertiser IDs cached for faster lookups"
   }
 }

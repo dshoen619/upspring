@@ -17,7 +17,21 @@ body {
 .app {
   min-height: 100vh;
   display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.app-main {
+  min-height: 100vh;
+  display: flex;
   flex-direction: column;
+  flex: 1;
+  margin-left: 0;
+  transition: margin-left 0.3s ease;
+}
+
+.app-main.sidebar-open {
+  margin-left: 280px;
 }
 
 /* Header */
@@ -26,6 +40,39 @@ body {
   color: white;
   padding: 32px 24px;
   text-align: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar-toggle {
+  position: absolute;
+  left: 24px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  padding: 10px;
+  cursor: pointer;
+  color: white;
+  transition: all 0.2s;
+  display: none;
+}
+
+.sidebar-toggle:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.sidebar-toggle svg {
+  width: 20px;
+  height: 20px;
+  display: block;
+}
+
+.header-content {
+  flex: 1;
 }
 
 .header-content h1 {
@@ -178,6 +225,14 @@ body {
 }
 
 @media (max-width: 768px) {
+  .app-main.sidebar-open {
+    margin-left: 0;
+  }
+
+  .sidebar-toggle {
+    display: block;
+  }
+
   .app-header {
     padding: 24px 16px;
   }

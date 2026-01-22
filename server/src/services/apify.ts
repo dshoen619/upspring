@@ -1228,7 +1228,16 @@ export class MetaAdsService {
 
       // Detect error type from message
       const lowerMessage = error.message.toLowerCase();
-      if (lowerMessage.includes('timeout')) {
+      if (
+        (lowerMessage.includes('out of') && lowerMessage.includes('token')) ||
+        lowerMessage.includes('credit') ||
+        lowerMessage.includes('usage limit') ||
+        lowerMessage.includes('quota') ||
+        (lowerMessage.includes('insufficient') && (lowerMessage.includes('credit') || lowerMessage.includes('token'))) ||
+        (lowerMessage.includes('exceeded') && (lowerMessage.includes('limit') || lowerMessage.includes('quota')))
+      ) {
+        errorCode = ApifyErrorCode.USAGE_QUOTA_EXCEEDED;
+      } else if (lowerMessage.includes('timeout')) {
         errorCode = ApifyErrorCode.TIMEOUT;
       } else if (lowerMessage.includes('rate limit') || lowerMessage.includes('429')) {
         errorCode = ApifyErrorCode.RATE_LIMIT;

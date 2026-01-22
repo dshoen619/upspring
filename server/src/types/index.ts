@@ -26,3 +26,6 @@ export * from './ads';
 
 // Export all AI-related types
 export * from './ai';
+
+// Export all search history types
+export * from './searchHistory';

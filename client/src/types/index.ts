@@ -105,6 +105,8 @@ export interface FetchAdsResponse {
   brandSource?: BrandSource;
   /** The verified brand name (may differ from search term) */
   verifiedBrandName?: string;
+  /** Whether the results are from cache */
+  fromCache?: boolean;
 }
 
 // UI State Types
@@ -121,4 +123,25 @@ export interface ChatMessage {
   content: string;
   timestamp: Date;
   keyInsights?: KeyInsight[];
+}
+
+// Search History Types
+export interface SearchHistoryItem {
+  searchId: string;
+  brand: string;
+  normalizedBrand: string;
+  searchedAt: string;
+  resultCount: number;
+}
+
+export interface SearchHistoryResponse {
+  success: boolean;
+  history?: SearchHistoryItem[];
+  error?: string;
+}
+
+export interface CachedSearchResponse {
+  success: boolean;
+  item?: SearchHistoryItem & { results: Ad[] };
+  error?: string;
 }

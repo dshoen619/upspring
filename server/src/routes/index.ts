@@ -8,6 +8,7 @@ import healthRouter from './health';
 import adsRouter from './ads';
 import aiRouter from './ai';
 import brandsRouter from './brands';
+import searchHistoryRouter from './searchHistory';
 
 const router = Router();
 
@@ -16,5 +17,6 @@ router.use('/health', healthRouter);
 router.use('/ads', adsRouter);
 router.use('/ai', aiRouter);
 router.use('/brands', brandsRouter);
+router.use('/search-history', searchHistoryRouter);
 
 export default router;

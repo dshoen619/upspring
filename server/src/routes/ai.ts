@@ -16,8 +16,9 @@ function loadAvailableBrands(): string[] {
   try {
     const cachePath = join(__dirname, '../data/brands.json');
     const content = readFileSync(cachePath, 'utf-8');
-    const cache = JSON.parse(content) as { brands: Record<string, { name: string }> };
-    return Object.values(cache.brands).map(b => b.name);
+    const cache = JSON.parse(content) as { advertisers?: Record<string, { name: string }>; brands?: Record<string, { name: string }> };
+    const data = cache.advertisers || cache.brands || {};
+    return Object.values(data).map(b => b.name);
   } catch (error) {
     console.warn('[AIRoute] Failed to load brands cache:', error);
     return [];
